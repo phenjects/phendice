@@ -1,4 +1,4 @@
-// INFO: main variables, way to interact with html elements
+// INFO: main variables, way to interact with html elements.
 const valueMain = document.getElementById("valueID");
 const rollBtn = document.getElementById("rollID");
 const diceImg = document.createElement("img");
@@ -11,7 +11,7 @@ function update() {
     console.log(diceImgValue);
 }
 
-// INFO: main roll function, the main reason the dice image functionality works 
+// INFO: main roll function, the main reason the dice image functionality works.
 rollBtn.onclick = function() {
     diceValue = Math.floor(Math.random() * 5) + 1;
     console.log(diceValue);
@@ -19,7 +19,7 @@ rollBtn.onclick = function() {
     diceimage();
 }
 
-// INFO: sets the dice image functionaliy up,
+// INFO: sets the dice image functionality up, a visual representation of the dice so the site isn't boring as shit.
 function diceimage() {
     diceImg.setAttribute("src", `/assets/${diceImgValue}`);
     diceImg.setAttribute("id", "diceID")
