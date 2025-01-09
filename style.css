@@ -1,3 +1,15 @@
 body {
     font-family: "Comic Sans MS";
 }
+
+.rollDIV {
+    text-align: center;
+}
+
+.diceDIV {
+    text-align: center;
+}
+
+.diceCLASS {
+    margin-top: 10px;
+}
