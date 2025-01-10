@@ -6,7 +6,30 @@ body {
     text-align: center;
 }
 
-.diceDIV {
+button {
+    border: 0;
+    background-color: rgb(170, 0, 0);
+    padding: 7px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: rgb(228, 0, 0);
+    transition: all 0.2s ease-in;
+}
+
+.rollCLASS {
+    font-size: 1.5rem;
+    font-family: "Comic Sans MS";
+}
+
+.amountlabelCLASS {
+    font-weight: bold;
+}
+
+.diceimageDIV {
     text-align: center;
 }
 

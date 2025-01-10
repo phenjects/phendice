@@ -10,11 +10,13 @@
   <body>
     <!-- INFO: container for the roll button, main point of game. -->
     <div class="rollDIV" id="rollDIV">
-      <h1 id="valueID">0</h1>
-      <button id="rollID">roll</button>
+      <label class="amountlabelCLASS" id="amountlabelID">dice:</label>
+      <input type="number" value="1" min="1" max="4" id="amountID" class="amountCLASS">
+      <h1 id="valueID" class="valueCLASS">0</h1>
+      <button id="rollID" class="rollCLASS" onclick="rollDice()">roll</button>
     </div>
-    <!-- INFO: empty container, the main.js file should create an element inside it. -->
-    <div class="diceDIV" id="diceDIV"></div>
+    <!-- INFO: empty container, the main.js file should create an img element inside it. -->
+    <div class="diceimageDIV" id="diceimageDIV"></div>
     <script src="main.js"></script>
   </body>
 </html>
